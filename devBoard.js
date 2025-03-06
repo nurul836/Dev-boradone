@@ -55,13 +55,13 @@ complete.addEventListener('click', function(event){
 
     const AfterClick=resultValue + 1;
     document.getElementById('result').innerText = AfterClick
-
     
-
-
-
-
     alert("Board updated successfully")
+
+
+    if(afterClick==0){
+        alert('All complited')
+    }
     
 });
 
@@ -91,6 +91,10 @@ completeButton.addEventListener('click', function(event){
 
 
     alert("Board updated successfully")
+
+    if(afterClick==0){
+        alert('All complited')
+    }
     
 });
 
@@ -121,6 +125,10 @@ CompleteButton.addEventListener('click', function(event){
 
 
     alert("Board updated successfully")
+
+    if(afterClick==0){
+        alert('All complited')
+    }
     
 });
 
@@ -150,6 +158,10 @@ CompleteButton1.addEventListener('click', function(event){
 
 
     alert("Board updated successfully")
+
+    if(afterClick==0){
+        alert('All complited')
+    }
     
 });
 
@@ -179,6 +191,10 @@ CompleteButton2.addEventListener('click', function(event){
 
 
     alert("Board updated successfully")
+
+    if(afterClick==0){
+        alert('All complited')
+    }
     
 });
 
@@ -211,7 +227,7 @@ CompleteButton3.addEventListener('click', function(event){
     alert("Board updated successfully")
 
     if(afterClick==0){
-        alert('all complited')
+        alert('All complited')
     }
     
 });
